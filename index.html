@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Velo</title>
+</head>
+<body>
+  <header>
+    <p>Digite o CEP e ao sair o campo o endereço será completado. Pode utilizar a tecla TAB após digitar o CEP.</p>
+  </header>
+  <form class="form">
+    <label for="cep">
+      CEP: 
+      <input type="text" name="cep" class="cep" id="cep-input" placeholder="Digite o CEP">
+    </label>
+    <label for="street">
+      Rua: 
+      <input type="text" name="street" class="street">
+    </label>
+    <label for="neighborhood">
+      Bairro: 
+      <input type="text" name="neighborhood" class="neighborhood">
+    </label>
+    <label for="city">
+      Cidade: 
+      <input type="text" name="city" class="city">
+    </label>
+    <label for="state">
+      Estado: 
+      <input type="text" name="state" class="state">
+    </label>
+    <label for="ibge">
+      IBGE: 
+      <input type="text" name="ibge" class="ibge">
+    </label>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
